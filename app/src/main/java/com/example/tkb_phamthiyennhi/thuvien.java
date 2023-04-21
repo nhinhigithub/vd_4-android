@@ -1,4 +1,4 @@
-package com.example.sql_tongquat;
+package com.example.TKB_PHAMTHIYENNHI;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class sinhvien extends AppCompatActivity {
-
+//TEXT THUVIEN
     EditText txtshow;
     String NameDTB="SINHVIEN.db";
     SQLiteDatabase database;
