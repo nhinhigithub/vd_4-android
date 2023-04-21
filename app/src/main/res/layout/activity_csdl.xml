@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CSDL">
+    <TableLayout
+        android:id="@+id/Thongtinnhanvien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:stretchColumns="*"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#055108"
+            android:gravity="center"
+            android:text="BẢNG THỜI KHÓA BIỂU"
+            android:textColor="#F5F0F0"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/bttTao"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="TẠO THÔNG TIN"/>
+        <Button
+            android:id="@+id/bttXoa"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="XÓA THÔNG TIN"/>
+        <Button
+            android:id="@+id/bttKhoa"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="THÔNG TIN KHOA CNTT"/>
+        <Button
+            android:id="@+id/bttGiangvien"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="THÔNG TIN GIẢNG VIÊN CNTT"/>
+        <Button
+            android:id="@+id/bttNganh"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="THÔNG TIN NGÀNH CNTT"/>
+        <Button
+            android:id="@+id/bttLop"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="THÔNG TIN LỚP CNTT"/>
+        <Button
+            android:id="@+id/bttChuyende"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="THÔNG TIN CHUYÊN ĐỀ CNTT"/>
+        <Button
+            android:id="@+id/bttTKB"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="THÔNG TIN THỜI KHÓA BIỂU CNTT"/>
+        <Button
+            android:id="@+id/bttPhancong"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="PHÂN CÔNG CNTT"/>
+        <Button
+            android:id="@+id/bttNgoaile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="PHÂN CÔNG CNTT"/>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
