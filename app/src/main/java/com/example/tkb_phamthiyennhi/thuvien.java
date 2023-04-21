@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
+//thu02
 public class sinhvien extends AppCompatActivity {
 //TEXT THUVIEN
     EditText txtshow;
