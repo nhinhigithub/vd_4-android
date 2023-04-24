@@ -1,5 +1,5 @@
 package com.example.TKB_PHAMTHIYENNHI;
-//thuvien456
+//Tran khang vuong
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.database.Cursor;
